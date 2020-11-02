@@ -57,6 +57,7 @@ import TextInputGroup from '../layout/TextInput'
             phone: '',
             errors: {}
         })
+        this.props.history.push('/');
     }
     render() {
         const {name,email,phone,errors} = this.state;

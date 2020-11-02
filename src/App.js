@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Contacts from './Components/contacts/Contacts'
 import AddContact from './Components/contacts/AddContact'
 import {Provider} from './context'
+import NotFound from './Components/pages/NotFound'
 import About from './Components/pages/About';
 class App extends Component {
     state = {
@@ -24,8 +25,9 @@ class App extends Component {
                         <Route exact path="/" component = {Contacts}/>
                         <Route exact path="/contact/add" component = {AddContact}/>
                         <Route exact path="/about" component = {About}/>
+                        <Route component={NotFound}/>
                     </Switch>
-                </div>              
+                </div>               
                 </div>
                 </Router>
             </Provider>

@@ -16,13 +16,13 @@ const Header = (props) => {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/about" className="nav-link">
+                            <Link to="/contact/add" className="nav-link">
                             <i className="fas fa-plus"></i>
                                 Add
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/contact/add" className="nav-link">
+                            <Link to="/about" className="nav-link">
                             <i className="fas fa-question"></i>
                                 About
                             </Link>

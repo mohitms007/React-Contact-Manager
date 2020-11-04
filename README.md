@@ -1,11 +1,11 @@
 # React Contact Manager
 A simple minimalistic contact manager app with basic crud operations using JsonPlaceholder API.
 
-Tech. Used -:
-            1. React
-            2. React-Router
-            3. Context API
-            4. JSON Placeholder
+Libraries Used - 
+   1. React
+   2. React-Router
+   3. Context API
+   4. JSON Placeholder           
 
 ## Available Scripts
 

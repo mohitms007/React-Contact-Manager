@@ -17,7 +17,7 @@ import axios from 'axios'
 
         this.setState({
             name: contact.name,
-            email: contact.phone,
+            email: contact.email,
             phone: contact.phone
         })
     }
@@ -55,6 +55,14 @@ import axios from 'axios'
             })
             return
         }
+        const updContact = {
+            name,
+            email,
+            phone
+        }
+        const {id} = this.props.match.params;
+        const res = await axios.put(`https://jsonplaceholder.typicode.com/users/${id}`,updContact);
+        dispatch({type: 'UPDATE_CONTACT',payload: res.data});
        
         // Clearing State
         this.setState({

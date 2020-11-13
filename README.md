@@ -7,6 +7,9 @@ Libraries Used -
    3. Context API
    4. JSON Placeholder           
 
+> For the Redux Version deployment can be seen here => https://contact12.netlify.app/ 
+
+
 ## Available Scripts
 
 In the project directory, you can run:
